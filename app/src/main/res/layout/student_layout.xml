@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:textColorHint="#F6F6F6"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/usn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="USN"
+            android:inputType="text"
+            android:textColor="#F2F5F5"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:textColorHint="#F6F6F6"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Department"
+            android:inputType="text"
+            android:textColor="#F2F5F5"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:textColorHint="#F6F6F6"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/sem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Semester"
+            android:inputType="text"
+            android:textColor="#F2F5F5"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
